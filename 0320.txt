@@ -1,0 +1,60 @@
+1. 조건 연산자를 이용하여 변수 age가 21세 미만이면 "minor"를 반환하고 그렇지 않으면 "adult"를 반환하도록 작성하시오.
+
+s = "minor" if age < 21 else "adult"
+
+
+
+2. 다음 조건에 해당하는 논리 연산식을 만드시오. (나이는 25살 이상, 연봉은 3500만원 이상)
+
+age >= 25 and salary >= 3500
+
+2-1. 수식 not True의 값은?
+
+False
+
+
+3-1. [1,2,3,4,5]를 저장하는 리스트 mylist를 생성해보자.
+
+mylist = [1, 2, 3, 4, 5]
+
+3-2. mylist의 첫 번째 항목을 0으로 변경해보자.
+
+mylist[0] = 0
+
+3-3. mylist의 마지막 항목을 9로 변경해보자.
+
+mylist[-1] = 9
+
+
+4. 다음 코드의 출력을 쓰시오.
+
+for i in [9, 8, 7, 6, 5]:
+    print("i=", i)
+
+i= 9
+i= 8
+i= 7
+i= 6
+i= 5
+
+
+5-1. 다음 코드의 출력을 쓰시오.
+
+for i in range(1, 5, 1):
+    print(2*i)
+
+2
+4
+6
+8
+
+5-2. 다음 코드의 출력을 쓰시오.
+
+for i in range(10, 0, -2):
+    print("Student" + str(i))
+
+Student10
+Student8
+Student6
+Student4
+Student2
